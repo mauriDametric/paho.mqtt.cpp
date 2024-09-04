@@ -47,7 +47,7 @@ set(COMMON_SRC
     topic.cpp
     will_options.cpp
 )
-
+find_package(PahoMqttC REQUIRED)
 ## --- Build the shared library, if requested ---
 
 if(PAHO_BUILD_SHARED)
